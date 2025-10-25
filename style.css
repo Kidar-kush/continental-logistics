@@ -1,0 +1,72 @@
+html{background-image: url(backg.jpg);
+background-size: inherit;
+}
+.exclusive{
+text-align: right;
+}
+#backtotop{
+    text-align: left;
+    font-size: larger;
+}
+#APPLYNOW{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    box-sizing: border-box;
+    display: grid;
+}
+fieldset{
+    border: transparent;
+}
+p{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+body{
+    color: white;
+}
+a{
+    color: rgba(231, 6, 6, 0.871);
+    border-radius: inherit;
+}
+h2{
+    color: lightgreen;
+font-weight: bold;
+}
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+#Bookkeeper{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+h1{
+    color: black;
+    display: grid;
+    text-align: center;
+    color: lightsalmon;
+}
+legend{
+    font: 1em sans-serif;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    color: lightsalmon;
+}
+.open{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+color: lightgreen;
+}
+b{
+    color: lightsalmon;
+}
+#next{
+    text-align: center;
+}
+#copy{
+    text-align: right;
+}
