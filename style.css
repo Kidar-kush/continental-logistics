@@ -70,3 +70,10 @@ b{
 #copy{
     text-align: right;
 }
+form{
+   font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+   font-style: oblique;
+}
+
