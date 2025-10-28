@@ -12,34 +12,34 @@
 </head>
 
 <body>
-    
+
+    <fieldset>
+        <h1>
+            Company Overview
+        </h1>
+        <p>
+            <b>Continental Logistics</b> is a Transportation company dedicated to delivering Local Medical Equipment
+            .
+        </p>
+        Founded in 2001, we have built a reputation for excellence, reliability, and customer-centric solutions that
+        drive in efficiency.
+        </p>
         <fieldset>
-            <h1>
-                Company Overview
-            </h1>
-            <p>
-                <b>Continental Logistics</b> is a Transportation company dedicated to delivering Local Medical Equipment
-                .
-            </p>
-            Founded in 2001, we have built a reputation for excellence, reliability, and customer-centric solutions that
-            drive in efficiency.
-            </p>
+            <h2>
+                Mission & Vision
+            </h2>
+            <ol>
+                <li>
+                    Mission: To simplify delivery for businesses through cutting-edge tools and unmatched support.
+                </li>
+                <li>
+                    Vision: To be a global leader in Logistics delivery by 2030
+                </li>
+            </ol>
+        </fieldset>
+        <section id="next">
             <fieldset>
-                <h2>
-                    Mission & Vision
-                </h2>
-                <ol>
-                    <li>
-                        Mission: To simplify delivery for businesses through cutting-edge tools and unmatched support.
-                    </li>
-                    <li>
-                        Vision: To be a global leader in Logistics delivery by 2030
-                    </li>
-                </ol>
-            </fieldset>
-            <section id="next">
-            <fieldset>
-                <form>
+                <form action="https://httpbin.org/get" method="get" >
                     <legend>
                         Application Form
                     </legend>
@@ -75,7 +75,40 @@
                     </label>
                     <input type="tel" name="Phone Number" id="Phone Number" required>
                     </P>
-                    <button type="submit" formaction="" formmethod="post">
+                    <P>
+                        <label for="job">
+                            Pick Position
+                        </label>
+                        <select id="job" name="job">
+                            <option value="Driver">
+                                Delivery Driver
+                            </option>
+                            <option value="Courier">
+                                Courier
+                            </option>
+                            <option value="Bookkeeper">
+                                Bookkeeper
+                            </option>
+                            <option value="Data Analysis">
+                                Data Entry Clerk
+                            </option>
+                        </select>
+                    </P>
+                    <P>
+                        <label for="full-time">
+                            Work Time
+                        </label>
+                        <select id="full-time" name="full-time">
+                            <option value="full-time">
+                                full-time
+                            </option>
+                            <option value="part-time">
+                                part-time
+                            </option>
+
+                        </select>
+                    </P>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">
                         SUBMIT
                     </button>
                 </form>
@@ -92,7 +125,7 @@
                     &COPY; Continental Logistics
                 </section>
             </footer>
-        </fieldset>
+    </fieldset>
 </body>
 
 </html>
